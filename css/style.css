@@ -28,7 +28,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
     padding: 10px;
     background-color: #DCCDBA;
 }
@@ -36,23 +36,23 @@ body {
 .brand {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 .logo {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70px;
-    height: 70px;
+    width: 55px;
+    height: 55px;
     background-color: #4A3B32;
     color: white;
-    font-size: 45px;
+    font-size: 35px;
 }
 
 .brand p {
     font-family: 'Instrument Serif', serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .nav-links {
@@ -79,15 +79,15 @@ body {
     justify-content: space-around;
     align-items: center;
     gap: 25px;
-    min-height: 330px;
-    padding: 50px 20px;
+    min-height: 300px;
+    padding: 40px 15px;
     background-color: #E7C4B1;
     text-align: center;
 }
 
 .hero h1 {
     font-family: 'Inter', sans-serif;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 400;
 }
 
@@ -100,7 +100,7 @@ body {
 
 .hero-button {
     display: inline-block;
-    padding: 12px 28px;
+    padding: 12px 25px;
     background-color: #A99D82;
     color: #4A3B32;
     border-radius: 8px;
@@ -117,14 +117,14 @@ body {
     align-items: center;
     gap: 10px;
     min-height: 180px;
-    padding: 35px 20px;
+    padding: 30px 15px;
     background-color: #D7DCCF;
     text-align: center;
 }
 
 .next-session h2 {
     font-family: 'Inter', sans-serif;
-    font-size: 27px;
+    font-size: 26px;
     font-weight: 400;
     margin-bottom: 10px;
 }
@@ -159,7 +159,7 @@ body {
 
 .workshop-card h2 {
     font-family: 'Inter', sans-serif;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 400;
 }
 
@@ -168,7 +168,6 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.4;
-    min-height: 50px;
 }
 
 .workshop-card img {
@@ -225,6 +224,24 @@ body {
 }
 
 @media (min-width: 768px) {
+
+    .site-header {
+        gap: 20px;
+    }
+
+    .brand {
+        gap: 15px;
+    }
+
+    .logo {
+        width: 70px;
+        height: 70px;
+        font-size: 45px;
+    }
+
+    .brand p {
+        font-size: 20px;
+    }
 
     .nav-links {
         display: flex;
